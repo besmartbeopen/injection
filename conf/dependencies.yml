@@ -1,0 +1,8 @@
+self: play-commons -> injection 0.1
+
+require:
+    - play
+    - com.google.guava -> guava 18.0
+    - com.google.inject -> guice 4.0:
+       exclude:
+        - org.ow2.asm -> asm *
