@@ -10,6 +10,6 @@ Edit dependencies.yml:
     repositories:
       - bsbo_zip_repo:
         type: http
-        artifact: https://github.com/besmartbeopen/[module[/raw/master/dist/[module]-[revision].zip
+        artifact: https://github.com/besmartbeopen/[module]/raw/master/dist/[module]-[revision].zip
         contains:
           - play-commons -> injection
